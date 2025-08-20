@@ -123,8 +123,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
+                  I&apos;ve worked on a variety of AI and Machine Learning projects, from simple
+                  models to complex model applications. Here are a few of my
                   favorites.
                 </p>
               </div>
@@ -164,12 +164,11 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  During my past university year, I attended{" "}
+                  {DATA.hackathons.length}+ hackathons. These events brought together 
+                  talented individuals to collaborate and build
+                  impressive projects within just 2-3 days. It was inspiring to 
+                  see how passion, creativity, and teamwork could quickly turn ideas into reality.
                 </p>
               </div>
             </div>
@@ -206,15 +205,8 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  with a direct question on twitter
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                Feel free to reach out for collaborations, projects or just to say hi via 
+                Email:minkhantnaing344@gmail.com or LinkedIn
               </p>
             </div>
           </BlurFade>
