@@ -95,7 +95,7 @@ export const DATA = {
       end: "current",
     },
     {
-      school: "Asia University",
+      school: "Asia University(Taiwan)",
       href: "https://asia.edu.tw",
       degree: "Summer Program in Artificial Intelligence",
       logoUrl: "/AU.png",
