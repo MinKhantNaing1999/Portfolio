@@ -241,6 +241,17 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Siriraj x MIT Hackathon",
+      dates: "Oct 31st - Nov 2nd 2025",
+      location: "Siriraj Research Center,Bangkok , Thailand",
+      description:
+        "Built an AI app 'listener space' to solve the need of psychiatrist and psychologist.",
+      image:
+        "/MIT.webp",
+      mlh: "",
+      links: [],
+    },
+    {
       title: "Code for Hope Hackathon",
       dates: "June 26th-27th 2025",
       location: "Chiang Mai, Thailand",
