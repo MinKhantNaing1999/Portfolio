@@ -5,12 +5,12 @@ export const DATA = {
   name: "Min Khant Naing",
   initials: "MKN",
   url: "https://github.com/MinKhantNaing1999",
-  location: "Chiang Rai, Thailand",
-  locationLink: "https://www.google.com/maps/place/chiangrai",
+  location: "Bangkok, Thailand",
+  locationLink: "https://www.google.com/maps/place/bangkok",
   description:
-    "Fourth year Software Engineering Student passionate about AI Engineering, with hands-on experience in building real-world projects",
+    "Fresh Graduated Software Engineering student passionate about Data Engineering, with hands-on experience in building real-world data pipelines, real-time streaming systems, and scalable data solutions.",
   summary:
-    "Over the past few years, most of my work revolves around Python, deep learning, and building real-world AI projects. For my senior project, I developed an image processing system using machine learning, deep learning, and clustering to tackle complex visual detection tasks such as mango bruise detection. I enjoy exploring how AI can solve practical problems and bring ideas to life.",
+    "Over the past few years, my work has focused on data engineering, building real-world data pipelines and scalable systems. During my internship, I developed real-time data streaming pipelines using Apache Kafka and built end-to-end ETL workflows for integrating API and SCADA data into PostgreSQL. I have also worked with orchestration tools like Kestra and Airflow to automate data processing and ensure reliability through logging and error handling. I enjoy designing efficient data systems and enabling data-driven solutions for practical applications.",
   avatarUrl: "/me1.jpg",
   skills: [
     "Python",
@@ -61,6 +61,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Be1 Digital Co,Ltd (Thailand)",
+      href: "https://agroindustry.mfu.ac.th/en/integrated-agritech-ecosystem-research-group.html",
+      badges: [],
+      location: "Bangkok, Thailand",
+      title: "Data Engineer Intern",
+      logoUrl: "/be1logo.png",
+      start: "Jan 2026",
+      end: "current",
+      description:
+        "As a Data Engineer Intern at BE1 Digital, I focus on designing and developing end-to-end data pipelines using tools such as Kestra, PostgreSQL, and Apache Kafka. My work involves building ETL/ELT workflows, integrating data from APIs, SFTP, and real-time streaming sources (e.g., SCADA via ICCP), and transforming raw data into structured formats for analytics. I also implement audit logging, scheduling, and automated reporting systems, aiming to improve data reliability, monitoring, and decision-making across business operations",
+    },
+    {
       company: "Integrated AgriTech Ecosystem(IATE MFU)",
       href: "https://agroindustry.mfu.ac.th/en/integrated-agritech-ecosystem-research-group.html",
       badges: [],
@@ -68,7 +80,7 @@ export const DATA = {
       title: "Researcher",
       logoUrl: "/iate.png",
       start: "May 2024",
-      end: "current",
+      end: "Nov 2025",
       description:
         "As a researcher at IATE, Mae Fah Luang University, focused on mango bruise detection using U-Net for image segmentation combined with K-means clustering algorithms. This work involves developing and optimizing AI models to accurately identify bruises on mangoes, aiming to improve quality control in agriculture through advanced computer vision techniques.",
     },
@@ -121,6 +133,48 @@ export const DATA = {
     
   ],
   projects: [
+    {
+      title: "RAOT Rubber Trade Data Pipeline",
+      href: "",
+      dates: "2026 Jan",
+      active: true,
+      description:
+        "Designed and implemented an end-to-end ETL pipeline to ingest rubber trade data from APIs into PostgreSQL using Kestra. Performed JSON transformation, scheduling, and built dashboards in Apache Superset to support trade monitoring and analytics.",
+      technologies: [
+        "Python",
+        "Kestra",
+        "PostgreSQL",
+        "API Integration",
+        "JSON Transformation",
+        "Apache Superset",
+        "ETL Pipeline",
+        "Data Modeling",
+      ],
+      links: [],
+      image: "/raot-logo.png",
+      video: "",
+    },
+    {
+      title: "PEA SCADA Streaming Pipeline (ICCP → Kafka)",
+      href: "",
+      dates: "2026 March",
+      active: true,
+      description:
+        "Developed a proof-of-concept streaming pipeline to ingest real-time SCADA data via ICCP protocol into Apache Kafka. Explored building data adapters, streaming ingestion, and preparing data for downstream processing and database integration.",
+      technologies: [
+        "Apache Kafka",
+        "Python",
+        "ICCP Protocol",
+        "SCADA Integration",
+        "Streaming Data",
+        "Docker",
+        "Data Ingestion",
+        "Real-time Processing",
+      ],
+      links: [],
+      image: "/pea-logo.png",
+      video: "",
+    },
     {
       title: "User interactive Mango bruise detection",
       href: "",
@@ -178,66 +232,66 @@ export const DATA = {
       image: "/Hotel.png",
       video: "",
     },
-    {
-      title: "Gun Detection Model API",
-      href: "https://huggingface.co/minkhantnaing/gun-detection-model",
-      dates: "July 2025 - August 2025",
-      active: true,
-      description:
-        "A real-time gun detection system using deep learning and computer vision to identify firearms in images. Built with Python, PyTorch, and FastAPI, it provides an API to upload images and receive annotated results.",
-      technologies: [
-        "Python",
-        "PyTorch",
-        "Torchvision",
-        "FastAPI",
-        "Pillow",
-        "NumPy",
-        "Uvicorn",   
-      ],
-      links: [
-        {
-          type: "Model link",
-          href: "https://huggingface.co/minkhantnaing/gun-detection-model",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/MinKhantNaing1999/Gun-Detection",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Gun.png",
-      video: "",
-    },
-    {
-      title: "Dorm App",
-      href: "https://play.google.com/store/apps/details?id=com.thss.DormHub&pcampaignid=web_share",
-      dates: "January 2024 - May 2024",
-      active: true,
-      description:
-        "A Flutter-based dormitory management app that allows students to manage rooms, track facilities, and communicate with administration efficiently",
-      technologies: [
-        "Flutter",
-        "Dart",
-        "Firebase (Auth, Firestore, Storage)",
-        "Push Notifications (Firebase Cloud Messaging)"
-      ],
-      links: [
-        {
-          type: "Google Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.thss.DormHub&pcampaignid=web_share",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/MinKhantNaing16/DormHub",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/dormApp.JPEG",
-      video:
-        "",
-    },
+    // {
+    //   title: "Gun Detection Model API",
+    //   href: "https://huggingface.co/minkhantnaing/gun-detection-model",
+    //   dates: "July 2025 - August 2025",
+    //   active: true,
+    //   description:
+    //     "A real-time gun detection system using deep learning and computer vision to identify firearms in images. Built with Python, PyTorch, and FastAPI, it provides an API to upload images and receive annotated results.",
+    //   technologies: [
+    //     "Python",
+    //     "PyTorch",
+    //     "Torchvision",
+    //     "FastAPI",
+    //     "Pillow",
+    //     "NumPy",
+    //     "Uvicorn",   
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Model link",
+    //       href: "https://huggingface.co/minkhantnaing/gun-detection-model",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/MinKhantNaing1999/Gun-Detection",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/Gun.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Dorm App",
+    //   href: "https://play.google.com/store/apps/details?id=com.thss.DormHub&pcampaignid=web_share",
+    //   dates: "January 2024 - May 2024",
+    //   active: true,
+    //   description:
+    //     "A Flutter-based dormitory management app that allows students to manage rooms, track facilities, and communicate with administration efficiently",
+    //   technologies: [
+    //     "Flutter",
+    //     "Dart",
+    //     "Firebase (Auth, Firestore, Storage)",
+    //     "Push Notifications (Firebase Cloud Messaging)"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Google Play Store",
+    //       href: "https://play.google.com/store/apps/details?id=com.thss.DormHub&pcampaignid=web_share",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/MinKhantNaing16/DormHub",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/dormApp.JPEG",
+    //   video:
+    //     "",
+    // },
   ],
   hackathons: [
     {
