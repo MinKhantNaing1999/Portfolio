@@ -104,7 +104,7 @@ export const DATA = {
       degree: "Bachelor of Engineering in Software Engineering",
       logoUrl: "/MFU.jpeg",
       start: "2022",
-      end: "current",
+      end: "2026",
     },
     {
       school: "Asia University(Taiwan)",
@@ -127,8 +127,8 @@ export const DATA = {
       href: "https://en.wikipedia.org/wiki/Basic_Education_High_School_No._16_Mandalay",
       degree: "Primary, secondary, Highschool",
       logoUrl: "/mdy16.jpg",
-      start: "2016",
-      end: "2006",
+      start: "2006",
+      end: "2016",
     },
     
   ],
