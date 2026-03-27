@@ -11,7 +11,7 @@ export const DATA = {
     "Fresh Graduated Software Engineering student passionate about Data Engineering, with hands-on experience in building real-world data pipelines, real-time streaming systems, and scalable data solutions.",
   summary:
     "Over the past few years, my work has focused on data engineering, building real-world data pipelines and scalable systems. During my internship, I developed real-time data streaming pipelines using Apache Kafka and built end-to-end ETL workflows for integrating API and SCADA data into PostgreSQL. I have also worked with orchestration tools like Kestra and Airflow to automate data processing and ensure reliability through logging and error handling. I enjoy designing efficient data systems and enabling data-driven solutions for practical applications.",
-  avatarUrl: "/me1.jpg",
+  avatarUrl: "/me3.JPG",
   skills: [
     "Python",
     "Java",
@@ -178,7 +178,7 @@ export const DATA = {
     {
       title: "User interactive Mango bruise detection",
       href: "",
-      dates: "Nov 2024 - current",
+      dates: "Nov 2024 - Nov 2025",
       active: true,
       description:
         "Individually developed interactive system for detecting and visualizing mango bruises using K-Means clustering, with user-defined classes, drawing box-based seeding, and real-time segmentation. ** source code are private under IATE Research Group and available upon request for authorized purpose**",
