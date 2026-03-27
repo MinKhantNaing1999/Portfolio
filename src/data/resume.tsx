@@ -151,7 +151,7 @@ export const DATA = {
         "Data Modeling",
       ],
       links: [],
-      image: "/raot-logo.jog",
+      image: "/raot-logo.jpg",
       video: "",
     },
     {
@@ -172,7 +172,7 @@ export const DATA = {
         "Real-time Processing",
       ],
       links: [],
-      image: "/pea-logo1.jpg",
+      image: "/pea-logo1.png",
       video: "",
     },
     {
