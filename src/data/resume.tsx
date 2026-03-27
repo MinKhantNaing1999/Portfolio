@@ -172,7 +172,7 @@ export const DATA = {
         "Real-time Processing",
       ],
       links: [],
-      image: "/pea-logo.png",
+      image: "/pea-logo.jpg",
       video: "",
     },
     {
