@@ -123,9 +123,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of AI and Machine Learning projects, from simple
-                  models to complex model applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of data engineering projects, ranging from ETL pipeline development to real-time data streaming systems. Here are a few of my key projects, including SCADA data streaming, API-based data integration, and automated data workflows.
                 </p>
               </div>
             </div>

@@ -11,7 +11,7 @@ export const DATA = {
     "Fresh Graduated Software Engineering student passionate about Data Engineering, with hands-on experience in building real-world data pipelines, real-time streaming systems, and scalable data solutions.",
   summary:
     "Over the past few years, my work has focused on data engineering, building real-world data pipelines and scalable systems. During my internship, I developed real-time data streaming pipelines using Apache Kafka and built end-to-end ETL workflows for integrating API and SCADA data into PostgreSQL. I have also worked with orchestration tools like Kestra and Airflow to automate data processing and ensure reliability through logging and error handling. I enjoy designing efficient data systems and enabling data-driven solutions for practical applications.",
-  avatarUrl: "/me3.JPG",
+  avatarUrl: "/me4.png",
   skills: [
     "Python",
     "Java",
@@ -151,7 +151,7 @@ export const DATA = {
         "Data Modeling",
       ],
       links: [],
-      image: "/raot-logo.png",
+      image: "/raot-logo.jog",
       video: "",
     },
     {
@@ -172,7 +172,7 @@ export const DATA = {
         "Real-time Processing",
       ],
       links: [],
-      image: "/pea-logo.jpg",
+      image: "/pea-logo1.jpg",
       video: "",
     },
     {
